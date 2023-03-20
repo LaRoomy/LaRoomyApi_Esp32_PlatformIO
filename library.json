@@ -1,0 +1,22 @@
+{
+    "name": "LaRoomyApiEsp32Lib",
+    "version": "1.0.0",
+    "description": "LaRoomy App remote framework to quickly implement remote control capabilities to embedded projects",
+    "authors":
+    {
+        "name": "Hans Philipp Zimmermann",
+        "email": "info@laroomy.de",
+        "url": "https://api.laroomy.com",
+        "maintainer": true
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/LaRoomy/LaRoomyApi_Esp32_pio_lib"
+    },
+    "license": "MIT",
+    "homepage": "https://api.laroomy.com",
+    "frameworks": "arduino",
+    "platforms": ["espressif32"],
+    "headers": "LaRoomyApi_Esp32.h"
+}
