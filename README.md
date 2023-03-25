@@ -7,7 +7,7 @@ This is the **LaRoomy Api** remote framework library. Implementing this library 
  
 ## How to use the Library
 
-**Prerequesites:**
+### Prerequesites:
 
 This library requires [Platform IO](https://platformio.org/platformio-ide) to be installed in [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -15,7 +15,7 @@ This library requires [Platform IO](https://platformio.org/platformio-ide) to be
 - [Install Platform IO for VS Code ](https://docs.platformio.org/en/latest/integration/ide/vscode.html#installation)
 
 
-**Implementation**
+### Implementation:
 
 Simply add the dependency to the platformio.ini file of your project:
 
