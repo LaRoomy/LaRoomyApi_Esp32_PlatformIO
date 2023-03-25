@@ -1,7 +1,7 @@
 # LaRoomyApi_Esp32_pio_lib
 ![](https://img.shields.io/badge/Platform-espressif32-green)
 ![](https://img.shields.io/badge/Environment-PlatformIO-9cf)
-![](https://img.shields.io/github/last-commit/LaRoomy/LaRoomyApi_Esp32_pio_lib)
+![](https://img.shields.io/github/last-commit/LaRoomy/LaRoomyApi_Esp32_PlatformIO)
 
 This is the **LaRoomy Api** remote framework library. Implementing this library enables your Esp32 project to interact with the [LaRoomy App](https://www.laroomy.com). The library is written for the **Esp32** platform and is intended to be used with the **PlatformIO** embedded development platform.
  
