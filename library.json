@@ -1,5 +1,5 @@
 {
-    "name": "LaRoomyApiEsp32Lib",
+    "name": "LaRoomyApi_Esp32",
     "version": "1.0.0",
     "description": "LaRoomy App remote framework to quickly implement remote control capabilities to embedded projects",
     "authors":
@@ -12,7 +12,7 @@
     "repository":
     {
         "type": "git",
-        "url": "https://github.com/LaRoomy/LaRoomyApi_Esp32_pio_lib"
+        "url": "https://github.com/LaRoomy/LaRoomyApi_Esp32"
     },
     "license": "MIT",
     "homepage": "https://api.laroomy.com",
