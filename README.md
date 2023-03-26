@@ -3,7 +3,9 @@
 ![](https://img.shields.io/badge/Environment-PlatformIO-9cf)
 ![](https://img.shields.io/github/last-commit/LaRoomy/LaRoomyApi_Esp32_PlatformIO)
 
-This is the **LaRoomy Api** remote framework library. Implementing this library enables your Esp32 project to interact with the [LaRoomy App](https://www.laroomy.com). The library is written for the **Esp32** platform and is intended to be used with the **PlatformIO** embedded development platform.
+This is the **LaRoomy Api** remote framework library. Implementing this library enables your Esp32 project to interact with the [LaRoomy App](https://www.laroomy.com). The library is written for the **espressif32** platform and is intended to be used with the **PlatformIO** embedded development platform.
+
+The complete documentation is provided on the [LaRoomy Api Website](https://api.laroomy.com/).
  
 ## How to use the Library
 
@@ -17,9 +19,24 @@ This library requires [Platform IO](https://platformio.org/platformio-ide) to be
 
 ### Implementation:
 
-Simply add the dependency to the platformio.ini file of your project:
+- Add the dependency to the **platformio.ini** file of your project:
 
-```
+```ini
 lib_deps = https://github.com/LaRoomy/LaRoomyApi_Esp32_pio_lib
 ```
+
+- Include the repective header in your main project file
+
+```c
+#include <LaRoomyApi_Esp32.h>
+```
+
+- Now you can use the LaRoomy Api with the respective access operator
+
+```c
+// begin
+LaRoomyApi.begin();
+```
+
+[Click here for detailed instructions on how to use the LaRoomyApi.](https://api.laroomy.com/p/laroomy-api-class.html)
 
