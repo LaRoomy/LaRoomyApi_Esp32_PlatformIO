@@ -45,5 +45,17 @@ LaRoomyApi.begin();
 
 This library requires the Arduino IDE to be installed
 
+- [Download and install Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+
+### Implementation
+
+- Download this repository as .zip file (click on <>code and select 'download zip')
+- Open the Arduino IDE
+- Click on the 'Sketch' entry on the menu and select 'Include Library' > 'Add .ZIP Library'
+- Select the downloaded .zip file and press OK
+- When the library was successful installed, it can be used by clicking on 'Sketch' > 'Include Library' in the menu and select the LaRoomy Api library in the section for the contributed libraries
+
+## Further Information
+
 [Click here for detailed instructions on how to use the LaRoomyApi.](https://api.laroomy.com/p/laroomy-api-class.html)
 
