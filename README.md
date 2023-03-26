@@ -1,5 +1,5 @@
 # LaRoomyApi_Esp32
-![](https://img.shields.io/badge/Platform-espressif32-green)
+![](https://img.shields.io/badge/Platform-espressif32-001c2a)
 ![](https://img.shields.io/badge/Environment-PlatformIO-9cf)
 ![](https://img.shields.io/github/last-commit/LaRoomy/LaRoomyApi_Esp32_PlatformIO)
 
