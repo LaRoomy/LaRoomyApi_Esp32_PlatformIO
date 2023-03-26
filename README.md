@@ -54,6 +54,11 @@ This library requires the Arduino IDE to be installed
 - Click on the 'Sketch' entry on the menu and select 'Include Library' > 'Add .ZIP Library'
 - Select the downloaded .zip file and press OK
 - When the library was successful installed, it can be used by clicking on 'Sketch' > 'Include Library' in the menu and select the LaRoomy Api library in the section for the contributed libraries
+- Now you can use the LaRoomy Api with the respective access operator:
+
+```cpp
+LaRoomyApi.begin();
+```
 
 ## Further Information
 
