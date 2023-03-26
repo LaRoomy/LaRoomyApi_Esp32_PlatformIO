@@ -7,11 +7,11 @@ This is the **LaRoomy Api** remote framework library. Implementing this library 
 
 The complete documentation for the library is provided on the [LaRoomy Api Website](https://api.laroomy.com/).
  
-## How to use the Library
+# How to use the Library
 
-### Prerequisites:
+## Usage with PlatformIO
 
-#### Usage with PlatformIO:
+### Prerequisites
 
 This library requires [Platform IO](https://platformio.org/platformio-ide) to be installed in [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -19,7 +19,7 @@ This library requires [Platform IO](https://platformio.org/platformio-ide) to be
 - [Install Platform IO for VS Code ](https://docs.platformio.org/en/latest/integration/ide/vscode.html#installation)
 
 
-##### Implementation:
+### Implementation
 
 - Add the dependency to the **platformio.ini** file of your project:
 
@@ -39,7 +39,11 @@ lib_deps = https://github.com/LaRoomy/LaRoomyApi_Esp32_PlatformIO
 LaRoomyApi.begin();
 ```
 
-#### Usage with Arduino IDE:
+## Usage with Arduino IDE:
+
+### Prerequisites
+
+This library requires the Arduino IDE to be installed
 
 [Click here for detailed instructions on how to use the LaRoomyApi.](https://api.laroomy.com/p/laroomy-api-class.html)
 
