@@ -9,7 +9,7 @@ The complete documentation is provided on the [LaRoomy Api Website](https://api.
  
 ## How to use the Library
 
-### Prerequesites:
+### Prerequisites:
 
 This library requires [Platform IO](https://platformio.org/platformio-ide) to be installed in [Visual Studio Code](https://code.visualstudio.com/).
 
