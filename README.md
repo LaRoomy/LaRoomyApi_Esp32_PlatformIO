@@ -49,7 +49,7 @@ This library requires the Arduino IDE to be installed
 
 ### Implementation
 
-- Download this repository as .zip file (click on <>code and select 'download zip')
+- Download this repository as .zip file (click on <>Code and select 'Download ZIP')
 - Open the Arduino IDE
 - Click on the 'Sketch' entry on the menu and select 'Include Library' > 'Add .ZIP Library'
 - Select the downloaded .zip file and press OK
