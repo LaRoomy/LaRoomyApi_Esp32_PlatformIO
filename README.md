@@ -65,3 +65,5 @@ LaRoomyApi.begin();
 
 [Click here for detailed instructions on how to use the LaRoomyApi.](https://api.laroomy.com/p/laroomy-api-class.html)
 
+
+![](https://img.shields.io/github/license/LaRoomy/LaRoomyApi_Esp32?style=for-the-badge)
