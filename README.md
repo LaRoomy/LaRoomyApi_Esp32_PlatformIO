@@ -1,4 +1,4 @@
-# LaRoomyApi_Esp32_pio_lib
+# LaRoomyApi_Esp32_PlatformIO
 ![](https://img.shields.io/badge/Platform-espressif32-green)
 ![](https://img.shields.io/badge/Environment-PlatformIO-9cf)
 ![](https://img.shields.io/github/last-commit/LaRoomy/LaRoomyApi_Esp32_PlatformIO)
@@ -22,7 +22,7 @@ This library requires [Platform IO](https://platformio.org/platformio-ide) to be
 - Add the dependency to the **platformio.ini** file of your project:
 
 ```ini
-lib_deps = https://github.com/LaRoomy/LaRoomyApi_Esp32_pio_lib
+lib_deps = https://github.com/LaRoomy/LaRoomyApi_Esp32_PlatformIO
 ```
 
 - Include the repective header in your main project file
