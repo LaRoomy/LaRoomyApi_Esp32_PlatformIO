@@ -33,8 +33,7 @@ lib_deps = https://github.com/LaRoomy/LaRoomyApi_Esp32_PlatformIO
 
 - Now you can use the LaRoomy Api with the respective access operator
 
-```c
-// begin
+```cpp
 LaRoomyApi.begin();
 ```
 
