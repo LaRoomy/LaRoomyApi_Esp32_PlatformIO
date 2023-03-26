@@ -2,7 +2,6 @@
 ![](https://img.shields.io/badge/Platform-espressif32-002f3e)
 ![](https://img.shields.io/badge/Environment-PlatformIO-9cf)
 ![](https://img.shields.io/badge/Framework-Arduino-informational)
-![](https://img.shields.io/github/last-commit/LaRoomy/LaRoomyApi_Esp32_PlatformIO)
 
 This is the **LaRoomy Api** remote framework library. Implementing this library enables your Esp32 project to interact with the [LaRoomy App](https://www.laroomy.com). The library is written for the **espressif32** platform and is intended to be used with the **PlatformIO** embedded development platform or the arduino IDE.
 
@@ -66,4 +65,5 @@ LaRoomyApi.begin();
 [Click here for detailed instructions on how to use the LaRoomyApi.](https://api.laroomy.com/p/laroomy-api-class.html)
 
 
-![]([https://img.shields.io/github/license/LaRoomy/LaRoomyApi_Esp32?style=for-the-badge](https://img.shields.io/github/license/LaRoomy/LaRoomyApi_Esp32?color=009999&style=for-the-badge))
+![]([https://img.shields.io/github/license/LaRoomy/LaRoomyApi_Esp32?style=for-the-badge](https://img.shields.io/github/license/LaRoomy/LaRoomyApi_Esp32?color=009999&style=for-the-badge)
+
