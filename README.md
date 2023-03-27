@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Environment-PlatformIO-9cf)
 ![](https://img.shields.io/badge/Framework-Arduino-informational)
 
-This is the **LaRoomy Api** remote framework library. Implementing this library enables your Esp32 project to interact with the [LaRoomy App](https://www.laroomy.com). The library is written for the **espressif32** platform and is intended to be used with the **PlatformIO** embedded development platform or the arduino IDE.
+This is the **LaRoomy Api** remote framework library. Implementing this library enables your Esp32 project to interact with the [LaRoomy App](https://www.laroomy.com). The library is written for the **espressif32** platform and is intended to be used with the **PlatformIO** embedded development platform or the Arduino IDE.
 
 The complete documentation for the library is provided on the [LaRoomy Api Website](https://api.laroomy.com/).
  
@@ -49,7 +49,7 @@ This library requires the Arduino IDE to be installed
 
 ### Implementation
 
-- Download this repository as .zip file (click on <>Code and select 'Download ZIP')
+- Download this repository as .zip file (click on '<>Code' and select 'Download ZIP')
 - Open the Arduino IDE
 - Click on the 'Sketch' entry on the menu and select 'Include Library' > 'Add .ZIP Library'
 - Select the downloaded .zip file and press OK
