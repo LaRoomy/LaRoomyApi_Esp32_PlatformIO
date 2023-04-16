@@ -768,6 +768,9 @@ void LaRoomyAppImplementation::clearTextListPresenterContent(cID textListPresent
 
 void LaRoomyAppImplementation::onConnect(BLEServer* pServer){
 
+    if(!laRoomyAppImplInstanceCreated){
+        return;
+    }
     this->is_connected = true;
     this->connID = pServer->getConnId();
 
@@ -778,17 +781,26 @@ void LaRoomyAppImplementation::onConnect(BLEServer* pServer){
 
 void LaRoomyAppImplementation::onDisconnect(BLEServer* pServer){
 
+    if(!laRoomyAppImplInstanceCreated){
+        return;
+    }
     this->is_connected = false;
     this->connID = 0;
 
     if(this->pLrCallback != nullptr){
         this->pLrCallback->onConnectionStateChanged(false);
     }
+    if(!laRoomyAppImplInstanceCreated){
+        return;
+    }
     this->ble_restart();
 }
 
 void LaRoomyAppImplementation::onWrite(BLECharacteristic* pCharacteristic){
 
+    if(!laRoomyAppImplInstanceCreated){
+        return;
+    }
     auto value = pCharacteristic->getValue();
     String data = value.c_str();
 
@@ -1489,6 +1501,9 @@ void LaRoomyAppImplementation::onNotificationTransmission(const String& data){
 }
 
 void LaRoomyAppImplementation::onStatus(BLECharacteristic* pCharacteristic, Status s, uint32_t code){
+    if(!laRoomyAppImplInstanceCreated){
+        return;
+    }
     if(s > Status::SUCCESS_NOTIFY){
         if(this->is_monitor_enabled){
             // error
