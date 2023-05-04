@@ -60,6 +60,10 @@ This library requires the Arduino IDE to be installed
 LaRoomyApi.begin();
 ```
 
+## Examples
+
+A detailed description of the examples with test schematics can be found [here](https://github.com/LaRoomy/LaRoomyAPI_Remote_Examples).
+
 ## Further Information
 
 [Click here for detailed instructions on how to use the LaRoomyApi.](https://api.laroomy.com/p/laroomy-api-class.html)
