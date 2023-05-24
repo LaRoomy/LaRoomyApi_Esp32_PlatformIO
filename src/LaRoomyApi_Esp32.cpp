@@ -1491,6 +1491,11 @@ void LaRoomyAppImplementation::onNotificationTransmission(const String& data){
                     }
                 }
                 break;
+            case 'b':// User navigated to device settings page
+                if(this->pLrCallback != nullptr){
+                    this->pLrCallback->onDeviceSettingsPageInvoked();
+                }
+                break;
             default:
                 if(this->is_monitor_enabled){
                     Serial.printf("onNotificationTransmission: unknown notification type character: %c\r\n", data.charAt(8));
